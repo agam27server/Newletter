@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #fbffff, #94a7a4);
+    color: #333;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    height: 95px;
+    width: 95px;
+  }
+
+  .logo header {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 72px;
+    margin-left: 15px;
+  }
+
+  #news-gallery {
+    line-height: 98px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 31px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    /* position: absolute; */
+    right: 20px;
+
+  }
+
+  .main-content {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .main-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .main-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .main-content .cta {
+    margin-top: 30px;
+  }
+
+  .main-content .cta button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
